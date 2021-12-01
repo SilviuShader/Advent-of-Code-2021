@@ -29,7 +29,6 @@ int main()
 
 		if (current < next)
 			increases2++;
-
 	}
 
 	cout << increases2 << endl;
