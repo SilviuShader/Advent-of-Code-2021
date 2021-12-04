@@ -14,6 +14,8 @@ int main()
 	while (fin >> crtNumber)
 		numbers.push_back(crtNumber);
 
+	fin.close();
+
 	int increases = 0;
 	for (int i = 0; i < numbers.size() - 1; i++)
 		if (numbers[i] < numbers[i + 1])

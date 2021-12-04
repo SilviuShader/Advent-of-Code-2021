@@ -36,6 +36,8 @@ int main()
 			moves.push_back(make_pair(moveType, number));
 	}
 
+	fin.close();
+
 	int horizontal = 0;
 	int depth = 0;
 	

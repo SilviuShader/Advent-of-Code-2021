@@ -53,6 +53,8 @@ int main()
 		}
 	}
 
+	fin.close();
+
 	unsigned int gamma = 0;
 	unsigned int epsilon = 0;
 
